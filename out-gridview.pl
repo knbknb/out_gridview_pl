@@ -19,6 +19,12 @@ SQL
 =cut
 
 =pod
+sqsh is a free, open source command-line client for Sybase and Microsoft SQL Server databases.
+Usage of the -m vert option is critical here. This returns data in a key:value manner instead of a columnar layout.
+This perl script turns the columnar layout into a grid-view again.
+=cut
+
+=pod
 Expected output (only 2 records shown)
 
 spid:       61
