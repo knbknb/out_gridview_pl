@@ -44,3 +44,6 @@ This script will turn the key:value pairs into a grid view control.
     cmd:        SELECT          
     request_id: 0
 
+*Result*
+
+![](https://github.com/knbknb/out_gridview_pl/raw/master/pics/out-gridview-screenshot-cropped.png)
