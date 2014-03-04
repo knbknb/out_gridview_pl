@@ -1,15 +1,20 @@
-
 *Expected Input / Command Line*
 
 produced by a shell-one-liner such as this pipe:
 
+(Enter SQL command interactively)
 
 
-    sqsh  -Smysrv  -Uguest -Psecrit -Dtempdb -m vert  -i in-out-files/test-1.sql <<SQL  \| perl   ./out-gridview.pl
+    sqsh  -Smysrv  -Uguest -Psecrit -Dtempdb -m vert  -i <<SQL  | perl   ./out-gridview.pl
     sp_who;
     SQL
 
+or 
 
+(Enter SQL command from file)
+
+    sqsh  -Smysrv  -Uguest -Psecrit -Dtempdb -m vert  -i in-out-files/test-1.sql | perl   ./out-gridview.pl
+    
 *Hint*
 
 sqsh is a free, open source command-line client for Sybase and Microsoft SQL Server databases.
